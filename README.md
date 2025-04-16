@@ -9,6 +9,8 @@ This React application includes a To-Do List and a Counter feature, both powered
 
 ## Demo Screenshots
 
+![image](https://github.com/user-attachments/assets/383b73aa-7a9c-4495-a146-2709c0597702)
+![image](https://github.com/user-attachments/assets/a6bbedcb-37f6-43dd-b8a4-f9dd8e0a1a52)
 
 ## Requirements
 
