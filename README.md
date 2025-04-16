@@ -1,7 +1,6 @@
 # React + Vite
 
-## Description
-## React Redux Toolkit App
+## Description: React Redux Toolkit App
 This React application includes a To-Do List and a Counter feature, both powered by Redux Toolkit for efficient state management.
 
 
@@ -50,7 +49,7 @@ $ npm install
 $ npm install @reduxjs/toolkit react-redux
 
   
-### Start app open (http://localhost:3000) to view it in your browser after run below command. 
+### Start app open (http://localhost:5173/) to view it in your browser after run below command. 
 $ npm run dev
 
 ### Push your code to github repo https://github.com/chanchal-kumar-mandal/react-redux-toolkit
