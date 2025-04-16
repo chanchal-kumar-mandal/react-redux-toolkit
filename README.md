@@ -82,17 +82,22 @@ $ npm install gh-pages --save-dev
 
 	Update the scripts section in package.json to include deployment commands.
 	"scripts": {
-	  "start": "react-scripts start",
-	  "build": "react-scripts build",
-	  "test": "react-scripts test",
-	  "eject": "react-scripts eject",
 	  "predeploy": "npm run build",
-	  "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d dist",
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint .",
+        "preview": "vite preview"
 	}
-5. Build and Deploy Your React App
+5. Update vite.config.js
+    add below line after plugins: [react()],
+
+    base: '/repository-name/', // ← must match your repo name
+
+6. Build and Deploy Your React App
 	$npm run build
 	$npm run deploy
-6. Enable GitHub Pages in Repository Settings
+7. Enable GitHub Pages in Repository Settings
 	Go to your repository on GitHub.
 	Click on Settings (on the right side).
 	Scroll down to the Pages section in the left sidebar.
@@ -101,5 +106,5 @@ $ npm install gh-pages --save-dev
 	Your site will now be available at: arduino
 	Copy code
 	https://username.github.io/repository-name/
-7. Access Your Hosted React App
+8. Access Your Hosted React App
 	Your React app will be live at https://yourusername.github.io/repository-name/.

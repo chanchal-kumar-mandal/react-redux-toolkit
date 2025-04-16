@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React + Redux Toolkit</h1>
+      <h2>Vite + React + Redux Toolkit</h2>
       <Todos />
       <div className="card">
         <button
